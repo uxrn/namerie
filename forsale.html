@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta name="description" content="Namerie.com! Names to be, get 'em from the Namerie">
+        <title>Namerie.com</title>
+        <style>
+            * { font-family: sans-serif; word-break: break-word; }
+            html, body { height: 100%; width: 100%; background: #EDF1F5; }
+            body { font-size: 1em; margin: 0; }
+            #container { height: 100%; width: 100%; max-width: 700px; text-align: center; margin: 0 auto; display: table; }
+            #container #align { display: table-cell; vertical-align: middle; width: 100%; }
+            #box1 { min-width: 600px; background-color: white; padding: 50px 0 40px 0; border-radius: 12px; box-shadow: 2px 2px 10px lightgrey; }
+            p { color: #031242; }
+            a { text-decoration: none; }
+            .at { color: #031242; font-weight: bold; }
+            .at:hover { background: lightgrey; color: #031242; }
+            .f1 { font-size: 2.25em; padding: 0; margin: 0; }
+            .f2 { font-size: 1.125em; padding: 0 0 10px 0; margin: 0; }
+            .f3 { font-size: 0.75em; padding: 0; margin: 0;}
+            .p1 { padding: 4px 0 0 0; }
+            #CapsLock { border: none; cursor: pointer; user-select: none; }
+            #div-logo { padding: 0 0 16px 0; margin: 0; }
+            #div-banner { padding: 0 0 30px 0; }
+            #div-bin { padding: 8px 0; }
+            #div-offer { padding: 8px 0; }
+            #div-contact { padding: 40px 0 0 0; }
+            #footer { padding: 24px 0 0 0; }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="align">
+                <div id="div-logo">
+                    <a class="" href="https://namerie.com"><img src="namerie.png" width="220" height="55" /></a>
+                </div>
+                <div id="box1">
+                    <div id="div-error" style="display:none;">
+                        <p>error: invalid URL</p>
+                    </div>
+
+                    <div id="div-banner">
+                        <p class="f1"><a class="at" onclick="capCheck()" id="CapsLock" title="Caps"><span id="urlid">URL</span></a> is for sale!</h1>
+                        <p class="f3 p1"><i>(click the domain to change the capitalization)</i></p>
+                    </div>
+                
+                    <div id="div-bin">
+                        <form action="https://www.escrow.com/checkout" method="post" target="_blank"><input type="hidden" name="type" value="domain_name"><input type="hidden" name="non_initiator_email" value="offer@namerie.com"><input type="hidden" name="non_initiator_id" value="2784092"><input type="hidden" name="non_initiator_role" value="seller"><input id="bin-title" type="hidden" name="title" value="namerie-domain-sale"><input type="hidden" name="currency" value="USD"><input id="bin-name" type="hidden" name="domain" value=""><input id="bin-price" type="hidden" name="price" value=""><input type="hidden" name="concierge" value="false"><input type="hidden" name="with_content" value="false"><input type="hidden" name="inspection_period" value="2"><input type="hidden" name="fee_payer" value="seller"><input type="hidden" name="return_url" value=""><input type="hidden" name="button_types" value="buy_now"><input type="hidden" name="auto_accept" value=""><input type="hidden" name="auto_reject" value="100"><input type="hidden" name="item_key" value="undefined"><style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);.EscrowButtonSecondary.EscrowButtonSecondary{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAAALCAMAAABGfiMeAAAAjVBMVEUAAAA8ul08ul48ul08ul08ul9CwGE/vGFHv2lT2Hs8ul08ul49ul09u188ul09ul09ul08ul09ul49ul49u149ul48ul4+u18+u2A9uV09ul49ul5Av2FCvWE8uV09ul49ul49u149u18+vGA/wGM8ul48ul48ul48ul49ul49u18/vWE8uV09ul88uV1RkItgAAAALnRSTlMA+/fz1m4RKwwF4cWUV+vbzLGBU0qlnj01rI16HRq6uGdNYDAV5tC/tYdEI5p0k6hGXAAAAi1JREFUOMuFktuSojAURXcCIheROypIt8hV2t7//3lzwjjVXc7Ysx5SVA45K8kO3ld2QFP6eog74BIp7Zdo34T7FoBbj1ZUnpEzBjBQfv6g5UHoksiPCwDhexSkLnAYSghuFOHfUO2FCQjkS7HDhbQ0bWxo0CKcSansG1cpB1tKDVfOgGgt+r6lgVRm94w9tFQ9TF298tlYaWi7QO9h5AI4W/HNbfbGQgxDBzfhDTFbsx32KPkJGM3VLAUs/wyvYIiQayUgvZ99Dsf1D0/tYRDfDuIakYkTOHBGxQoFY2bweYSQ0IHhzBLAkSmuZGSWkc4Lnx8KLjDSrs/Ga3/5xPWO7NHsbQ1w0CF350d8gcbDd4ex3HChxQMqGZsXvpUPyWIkRdF/+fxk1rx+8zlKHTnJjq6yjdVnPfs2rFh4ez/hx6vz5YILoast5t/OZ0jxzYeYicyMMta/ferZVzOM9YZ1we3P+T0cNbT15ztZbNO35QnAwgSoSB6wW0fD6ZFS/4g4Rcr2QqWaO4//8WWd5xa8IODV6bfLmt9WqyMa6hbnialRU3vIaOJbdg1q8xjdDhiso3nCGSoursUEOx5e5aeFAI5FRe576WawVx8ujFxUNCXfARxyMqcxd2szRbOn0lRASA6ak7d62s0WN+Zo6s/8L+tppYK7mfyoNCHnUxQFN+SnK4D0lEm3WSYcCFURAtiZ8RJ0wPkexHNl4i2DZOMBaWxaSDUW03LIn2/1F/O5RSAdFTG2AAAAAElFTkSuQmCC);-moz-osx-font-smoothing:grayscale!important;-webkit-font-smoothing:antialiased!important;background-color:#f0f2f5!important;background-repeat:no-repeat!important;background-position:right 13px!important;border-radius:4px!important;border:1px solid rgba(0,0,0,.05)!important;-webkit-box-shadow:0 2px 4px 0 hsla(0,12%,54%,.1)!important;box-shadow:0 2px 4px 0 hsla(0,12%,54%,.1)!important;-webkit-box-sizing:border-box!important;box-sizing:border-box!important;color:#555!important;cursor:pointer!important;display:inline-block!important;font-family:Open Sans,sans-serif!important;font-size:14px!important;font-weight:600!important;letter-spacing:.4px!important;line-height:1.2!important;min-height:40px!important;padding:8px 118px 8px 21px!important;text-align:left!important;text-decoration:none!important;text-shadow:none!important;text-transform:none!important;-webkit-transition:all .1s linear!important;transition:all .1s linear!important;vertical-align:middle!important}.EscrowButtonSecondary.EscrowButtonSecondary:focus,.EscrowButtonSecondary.EscrowButtonSecondary:hover{color:#555!important;font-size:14px!important;font-weight:600!important;outline:0!important;text-decoration:none!important;-webkit-transform:none!important;transform:none!important}.EscrowButtonSecondary.EscrowButtonSecondary:hover{background-color:#f4f5f8!important;border-color:rgba(0,0,0,.05)!important}.EscrowButtonSecondary.EscrowButtonSecondary:focus{background-color:#e8e9ec!important}</style><button class="EscrowButtonSecondary" type="submit">Buy It Now <span id="bin-button">($)</span></button><img id="bin-img-title" src="https://t.escrow.com/1px.gif?name=bin&price=499&title=namerie-domain-sale&user_id=2784092" style="display: none;"></form>
+                    </div>
+
+                    <div id="div-offer">
+                        <form action="https://www.escrow.com/offer" method="post" target="_blank"><input type="hidden" name="type" value="domain_name"><input type="hidden" name="non_initiator_email" value="offer@namerie.com"><input type="hidden" name="non_initiator_id" value="2784092"><input type="hidden" name="non_initiator_role" value="seller"><input id="offer-title" type="hidden" name="title" value="namerie-domain-sale"><input type="hidden" name="currency" value="USD"><input id="offer-name" type="hidden" name="domain" value=""><input id="offer-price" type="hidden" name="price" value="0"><input type="hidden" name="concierge" value="false"><input type="hidden" name="with_content" value="false"><input type="hidden" name="inspection_period" value="2"><input type="hidden" name="fee_payer" value="seller"><input type="hidden" name="return_url" value=""><input type="hidden" name="button_types" value="make_offer"><input type="hidden" name="auto_accept" value=""><input type="hidden" name="auto_reject" value="100"><input type="hidden" name="item_key" value=""><style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);.EscrowButtonSecondary.EscrowButtonSecondary{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAAALCAMAAABGfiMeAAAAjVBMVEUAAAA8ul08ul48ul08ul08ul9CwGE/vGFHv2lT2Hs8ul08ul49ul09u188ul09ul09ul08ul09ul49ul49u149ul48ul4+u18+u2A9uV09ul49ul5Av2FCvWE8uV09ul49ul49u149u18+vGA/wGM8ul48ul48ul48ul49ul49u18/vWE8uV09ul88uV1RkItgAAAALnRSTlMA+/fz1m4RKwwF4cWUV+vbzLGBU0qlnj01rI16HRq6uGdNYDAV5tC/tYdEI5p0k6hGXAAAAi1JREFUOMuFktuSojAURXcCIheROypIt8hV2t7//3lzwjjVXc7Ysx5SVA45K8kO3ld2QFP6eog74BIp7Zdo34T7FoBbj1ZUnpEzBjBQfv6g5UHoksiPCwDhexSkLnAYSghuFOHfUO2FCQjkS7HDhbQ0bWxo0CKcSansG1cpB1tKDVfOgGgt+r6lgVRm94w9tFQ9TF298tlYaWi7QO9h5AI4W/HNbfbGQgxDBzfhDTFbsx32KPkJGM3VLAUs/wyvYIiQayUgvZ99Dsf1D0/tYRDfDuIakYkTOHBGxQoFY2bweYSQ0IHhzBLAkSmuZGSWkc4Lnx8KLjDSrs/Ga3/5xPWO7NHsbQ1w0CF350d8gcbDd4ex3HChxQMqGZsXvpUPyWIkRdF/+fxk1rx+8zlKHTnJjq6yjdVnPfs2rFh4ez/hx6vz5YILoast5t/OZ0jxzYeYicyMMta/ferZVzOM9YZ1we3P+T0cNbT15ztZbNO35QnAwgSoSB6wW0fD6ZFS/4g4Rcr2QqWaO4//8WWd5xa8IODV6bfLmt9WqyMa6hbnialRU3vIaOJbdg1q8xjdDhiso3nCGSoursUEOx5e5aeFAI5FRe576WawVx8ujFxUNCXfARxyMqcxd2szRbOn0lRASA6ak7d62s0WN+Zo6s/8L+tppYK7mfyoNCHnUxQFN+SnK4D0lEm3WSYcCFURAtiZ8RJ0wPkexHNl4i2DZOMBaWxaSDUW03LIn2/1F/O5RSAdFTG2AAAAAElFTkSuQmCC);-moz-osx-font-smoothing:grayscale!important;-webkit-font-smoothing:antialiased!important;background-color:#f0f2f5!important;background-repeat:no-repeat!important;background-position:right 13px!important;border-radius:4px!important;border:1px solid rgba(0,0,0,.05)!important;-webkit-box-shadow:0 2px 4px 0 hsla(0,12%,54%,.1)!important;box-shadow:0 2px 4px 0 hsla(0,12%,54%,.1)!important;-webkit-box-sizing:border-box!important;box-sizing:border-box!important;color:#555!important;cursor:pointer!important;display:inline-block!important;font-family:Open Sans,sans-serif!important;font-size:14px!important;font-weight:600!important;letter-spacing:.4px!important;line-height:1.2!important;min-height:40px!important;padding:8px 118px 8px 21px!important;text-align:left!important;text-decoration:none!important;text-shadow:none!important;text-transform:none!important;-webkit-transition:all .1s linear!important;transition:all .1s linear!important;vertical-align:middle!important}.EscrowButtonSecondary.EscrowButtonSecondary:focus,.EscrowButtonSecondary.EscrowButtonSecondary:hover{color:#555!important;font-size:14px!important;font-weight:600!important;outline:0!important;text-decoration:none!important;-webkit-transform:none!important;transform:none!important}.EscrowButtonSecondary.EscrowButtonSecondary:hover{background-color:#f4f5f8!important;border-color:rgba(0,0,0,.05)!important}.EscrowButtonSecondary.EscrowButtonSecondary:focus{background-color:#e8e9ec!important}</style><button class="EscrowButtonSecondary" type="submit">Make An Offer</button><img id="offer-img-title" src="https://t.escrow.com/1px.gif?name=bin&price=0&title=namerie-domain-sale&user_id=2784092" style="display: none;"></form>
+                    </div>
+
+                    <div id="div-contact">
+                        <p class="f2">Contact <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> with questions or offers!</p>
+                    </div>
+                </div>
+                <p id="footer" class="f3">© Namerie.com, <script>document.write(new Date().getFullYear())</script></p>
+            </div>
+        </div>
+        <script>
+            const domain_names = {
+                "akimbo.xyz": ["b", 19999], 
+                "studious.xyz": ["b", 19999], 
+                "000002.xyz": ["m", 0], 
+                "000006.xyz": ["m", 0], 
+                "tod.xyz": ["b", 9999], 
+                "orc.xyz": ["b", 9999],
+                "dab.xyz": ["b", 9999],
+                "ron.xyz": ["m", 0],
+                "itm.xyz": ["b", 9999],
+                "2fa.xyz": ["b", 3999], 
+                "uie.xyz": ["b", 3999],
+                "dakimbo.com": ["m", 0],
+                "savies.com": ["m", 0], 
+                "uck.net": ["m", 0],
+                "m4x.net": ["m", 0],
+                "rpg.mobi": ["b", 1499],
+                "p8.pw": ["b", 499], 
+                "8d.pw": ["b", 499], 
+                "thotpatrol.net": ["b", 499],  
+                "iwnl.net": ["b", 499],
+                "volunteerbrothers.com": ["m", 0], 
+                "irs.biz": ["b", 999],
+                "profile.surf": ["m", 0], 
+                "profile.casa": ["m", 0], 
+                "profilesurf.com": ["m", 0],  
+                "profilecasa.com": ["m", 0],
+                "profile.social": ["m", 0], 
+                "dappraise.com": ["m", 0], 
+                "domainev.com": ["m", 0],
+                "akimbos.com": ["m", 0],
+                "dualakimbo.com": ["m", 0],
+                "armsdeal.com": ["m", 0],
+                "doton.org": ["b", 499],
+                "nqe.us": ["b", 499],
+                "profile.sn": ["m", 0]
+            };
+
+            let param = new URLSearchParams(location.search);
+            var url = param.get('url');
+            document.getElementById('urlid').innerHTML = url;
+            document.title = url + " is for sale!";
+            // with cap letter first
+            //document.getElementById('urlid').innerHTML = url.charAt(0).toUpperCase() + url.slice(1);
+            //document.title = url.charAt(0).toUpperCase() + url.slice(1) + " is for sale!";
+            var isCaps = 0;
+
+            function capCheck() {
+                if (isCaps == false) 
+                {
+                    document.getElementById('urlid').innerHTML = url.toUpperCase();
+                    isCaps = true;
+                }
+                else if (isCaps == true) 
+                {
+                    document.getElementById('urlid').innerHTML = url.toLowerCase();
+                    isCaps = false;
+                }
+                else 
+                {
+                    document.getElementById('urlid').innerHTML = url;
+                }
+            }
+
+            function binCheck() {
+                if (!(url in domain_names))
+                {
+                    document.getElementById('div-error').style.display = "inline-block";
+                    document.getElementById('div-banner').style.display = "none";
+                    document.getElementById('div-bin').style.display = "none";
+                    document.getElementById('div-offer').style.display = "none";
+                    return;
+                }
+                if (domain_names[url][0] == "m") 
+                {
+                    document.getElementById('div-bin').style.display = "none";
+                }
+                else if (domain_names[url][0] == "b") 
+                {
+                    document.getElementById('bin-button').innerHTML = "($" + domain_names[url][1].toLocaleString() + ")";
+                }
+                
+                document.getElementById('offer-price').setAttribute('value', domain_names[url][1]);
+                document.getElementById('bin-price').setAttribute('value', domain_names[url][1]);
+                document.getElementById('bin-img-title').setAttribute('src', "https://t.escrow.com/1px.gif?name=bin&price=" + domain_names[url][1] + "&title=" + url + "&user_id=2784092");
+                document.getElementById('bin-name').setAttribute('value', url);
+                document.getElementById('bin-title').setAttribute('value', url);
+                document.getElementById('offer-name').setAttribute('value', url);
+                document.getElementById('offer-title').setAttribute('value', url);
+                document.getElementById('offer-img-title').setAttribute('src', "https://t.escrow.com/1px.gif?name=bin&price=0&title=" + url + "&user_id=2784092");
+            }
+
+            binCheck();
+
+        </script>
+    </body>
+</html>
