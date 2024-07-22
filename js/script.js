@@ -94,5 +94,9 @@ function binCheck() {
   document.getElementById('offer-img-title').setAttribute('src', "https://t.escrow.com/1px.gif?name=bin&price=0&title=" + url + "&user_id=2784092");
 }
 
+function offerSedo() {
+  alert("To make an offer via Sedo.com, please email offer@namerie.com");
+}
+
 binCheck();
 capCheck();
