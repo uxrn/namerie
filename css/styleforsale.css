@@ -27,8 +27,11 @@ a { text-decoration: none; }
 #div-buttons { max-width: 300px; align-items: center; padding: 12px 17px 0 17px; }
 #div-bin { padding: 8px 0; }
 #div-offer { padding: 8px 0; }
-#footer { padding: 24px 0 0 0; }
+#div-sedo-offer { padding: 8px 0; }
 .btn-opt-1 { color: #fff; background-color: rgba(16, 185, 129); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
 .btn-opt-1:hover { background-color: rgba(16, 185, 129, 0.8); }
-.btn-opt-2 { color: #fff; background-color: rgb(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
+.btn-opt-2 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
 .btn-opt-2:hover { background-color: rgba(75, 85, 99, 0.8); }
+.btn-opt-3 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
+.btn-opt-3:hover { background-color: rgba(75, 85, 99, 0.8); }
+#footer { padding: 24px 0 0 0; }
