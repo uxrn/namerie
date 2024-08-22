@@ -36,7 +36,8 @@ const domain_names = {
   "prfl.app": ["m", 0],
   "uie.net": ["m", 0],
   "satisfy.org": ["m", 0],
-  "deluxo.com": ["m", 0]
+  "deluxo.com": ["m", 0],
+  "bettle.com": ["m", 0]
 };
 
 let param = new URLSearchParams(location.search);
