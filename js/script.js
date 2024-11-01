@@ -37,7 +37,14 @@ const domain_names = {
   "uie.net": ["m", 0],
   "satisfy.org": ["m", 0],
   "deluxo.com": ["m", 0],
-  "bettle.com": ["m", 0]
+  "bettle.com": ["m", 0],
+  "ebettle.com": ["m", 0],
+  "☚.com": ["m", 0],
+  "molres.org": ["m", 0],
+  "nregistry.com": ["m", 0],
+  "mc-u.com": ["m", 0],
+  "e2rs.com": ["m", 0],
+  "tatum.app": ["m", 0]
 };
 
 let param = new URLSearchParams(location.search);
