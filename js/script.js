@@ -44,7 +44,8 @@ const domain_names = {
   "nregistry.com": ["m", 0],
   "mc-u.com": ["m", 0],
   "e2rs.com": ["m", 0],
-  "tatum.app": ["m", 0]
+  "tatum.app": ["m", 0],
+  "mc.vc": ["m", 0]
 };
 
 let param = new URLSearchParams(location.search);
