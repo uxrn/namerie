@@ -1,0 +1,37 @@
+* { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; word-break: break-word; }
+html, body { height: 100%; width: 100%; background: #EDF1F5; }
+body { font-size: 1em; margin: 0; }
+#container { height: 100%; width: 100%; max-width: 700px; text-align: center; margin: 0 auto; display: table; }
+#container #align { display: table-cell; vertical-align: middle; width: 100%; }
+#top-half { min-width: 600px; background-color: white; border-radius: 12px; box-shadow: 2px 2px 10px lightgrey; }
+a { text-decoration: none; }
+.at { color: rgb(75 85 99); font-weight: bold; }
+.at:hover { background: lightgrey; color: rgb(55 65 81); }
+.f1 { font-size: 3.5em; margin: 0; }
+.f2 { font-size: 1.5em; margin: 0; font-weight: 500; }
+.f6 { font-size: 1.25em; margin: 0; }
+.f3 { font-size: 1em; margin: 0; }
+.f4 { font-size: 0.9em; margin: 0; }
+.f5 { font-size: 0.8em; margin: 0; }
+.c1 { color: rgb(16 185 129); }
+.c2 { color:rgb(156 163 175); }
+.c3 { color: rgb(55 65 81); }
+.c4 { color: #fff;}
+.c5 { color: rgb(75 85 99); }
+.p1 { padding: 5px 0 0 0; }
+.p2 { padding: 40px 0 5px 0; }
+#bottom-half { display: flex; }
+#CapsLock { border: none; cursor: pointer; user-select: none; }
+#div-banner { padding: 100px 0 100px 0; background-image: linear-gradient(#313342 , #424f61); border-radius: 12px 12px 0 0; }
+#div-info { width: 400px ; padding: 22px 0 25px 25px; text-align: left; }
+#div-buttons { max-width: 300px; align-items: center; padding: 12px 17px 0 17px; }
+#div-bin { padding: 8px 0; }
+#div-offer { padding: 8px 0; }
+#div-sedo-offer { padding: 8px 0; }
+.btn-opt-1 { color: #fff; background-color: rgba(16, 185, 129); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
+.btn-opt-1:hover { background-color: rgba(16, 185, 129, 0.8); }
+.btn-opt-2 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
+.btn-opt-2:hover { background-color: rgba(75, 85, 99, 0.8); }
+.btn-opt-3 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
+.btn-opt-3:hover { background-color: rgba(75, 85, 99, 0.8); }
+#footer { padding: 24px 0 0 0; }
