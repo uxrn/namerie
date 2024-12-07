@@ -23,8 +23,4 @@ function capCheck() {
   }
 }
 
-function offerSedo() {
-  alert("To make an offer via Sedo.com, please email offer@namerie.com");
-}
-
 capCheck();
