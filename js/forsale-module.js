@@ -33,6 +33,7 @@ function binCheck() {
   document.getElementById('offer-name').setAttribute('value', url);
   document.getElementById('offer-title').setAttribute('value', url);
   document.getElementById('offer-img-title').setAttribute('src', "https://t.escrow.com/1px.gif?name=bin&price=0&title=" + url + "&user_id=2784092");
+  document.getElementById('sedo-form').setAttribute('href', "https://sedo.com/checkdomainoffer.php?language=us&domain=" + url + "&&campaignId=333846");
 }
 
 binCheck();
