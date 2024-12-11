@@ -34,6 +34,8 @@ export const domain_names = {
   "tatum.app": ["m", 0],
 
   "☚.com": ["m", 0],
+  "i♥.com": ["m", 0],
+  "prge.com" ["m", 0],
   "mc-u.com": ["m", 0],
   "e2rs.com": ["m", 0],
 
