@@ -12,6 +12,7 @@ export const domain_names = {
   "uie.net": ["m", 0],
   "uck.net": ["m", 0],
   "m4x.net": ["b", 999],
+  "m-c.net": ["m", 0],
 
   "uie.xyz": ["b", 4999],
   "tod.xyz": ["b", 4999], 
