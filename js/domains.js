@@ -13,6 +13,7 @@ export const domain_names = {
   "uck.net": ["m", 0],
   "m4x.net": ["b", 999],
   "m-c.net": ["m", 0],
+  "azw.org": ["m", 0],
 
   "uie.xyz": ["b", 4999],
   "tod.xyz": ["b", 4999], 
@@ -28,7 +29,6 @@ export const domain_names = {
   "000006.xyz": ["m", 0], 
 
   "rpg.mobi": ["b", 1499],
-  "profile.social": ["b", 1999], 
   "profile.sn": ["b", 1999],
   "prfl.app": ["m", 0],
   "tatum.app": ["m", 0],
@@ -49,7 +49,6 @@ export const domain_names = {
   "savies.com": ["m", 0], 
   "armsdeal.com": ["m", 0],
   "nregistry.com": ["m", 0],
-  "bellryan.com": ["m", 0],
   "montington.com": ["m", 0],
 
   "satisfy.org": ["m", 0],
