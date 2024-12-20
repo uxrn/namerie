@@ -3,6 +3,7 @@ export const domain_names = {
   "m.cv": ["m", 0],
 
   "mc.vc": ["m", 0],
+  "mc.ke": ["m", 0],
   "p8.pw": ["b", 499], 
   "8d.pw": ["b", 499], 
   "nqe.us": ["b", 499],
