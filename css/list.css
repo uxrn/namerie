@@ -1,0 +1,31 @@
+.fs-container {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  padding-bottom: 40px;
+}
+
+.fs-list {
+  margin: 0;
+  padding-inline: 0;
+  list-style: none;
+  max-width: 200px;
+  text-align: center;
+}
+
+.fs-list li {
+  padding: 0.5rem;
+  background: transparent;
+  border-radius: 0.5rem;
+}
+
+.fs-list li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.fs-img-pad {
+  padding-top: 2rem;
+}
