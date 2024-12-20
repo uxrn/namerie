@@ -48,6 +48,7 @@ export const domain_names = {
   "ebettle.com": ["m", 0],
   "savies.com": ["m", 0], 
   "armsdeal.com": ["m", 0],
+  "arms.deal": ["m", 0],
   "nregistry.com": ["m", 0],
   "montington.com": ["m", 0],
 
