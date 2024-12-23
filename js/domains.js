@@ -10,21 +10,21 @@ export const domain_names = {
 
   "uie.net": ["m", 0],
   "uck.net": ["m", 0],
-  "m4x.net": ["b", 999],
+  "m4x.net": ["m", 0],
   "m-c.net": ["m", 0],
   "azw.org": ["m", 0],
-  "irs.biz": ["b", 999],
+  "irs.biz": ["m", 0],
 
-  "uie.xyz": ["b", 4999],
+  "uie.xyz": ["m", 0],
   "tod.xyz": ["b", 4999], 
-  "orc.xyz": ["b", 4999],
-  "dab.xyz": ["b", 4999],
+  "orc.xyz": ["m", 0],
+  "dab.xyz": ["m", 0],
   "ron.xyz": ["m", 0],
   "itm.xyz": ["b", 4999],
   "2fa.xyz": ["b", 4999], 
 
-  "akimbo.xyz": ["b", 19999], 
-  "studious.xyz": ["b", 19999], 
+  "akimbo.xyz": ["m", 0], 
+  "studious.xyz": ["m", 0], 
   "000002.xyz": ["m", 0], 
   "000006.xyz": ["m", 0], 
 
