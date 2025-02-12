@@ -4,8 +4,8 @@ export const domain_names = {
 
   "mc.vc": ["m", 0],
   "mc.ke": ["m", 0],
-  "p8.pw": ["b", 499], 
-  "8d.pw": ["b", 499], 
+  "p8.pw": ["b", 149], 
+  "8d.pw": ["b", 149], 
 
   "uie.net": ["m", 0],
   "uck.net": ["m", 0],
@@ -13,46 +13,45 @@ export const domain_names = {
   "m-c.net": ["m", 0],
   "f-c.net": ["m", 0],
   "azw.org": ["m", 0],
-  "irs.biz": ["m", 0],
+  "irs.biz": ["b", 999],
 
   "uie.xyz": ["m", 0],
-  "tod.xyz": ["b", 9999], 
-  "orc.xyz": ["b", 29999],
-  "dab.xyz": ["b", 9999],
+  "tod.xyz": ["b", 4999], 
+  "orc.xyz": ["b", 4999],
+  "dab.xyz": ["b", 4999],
   "ron.xyz": ["m", 0],
-  "itm.xyz": ["b", 4999],
-  "2fa.xyz": ["b", 9999], 
+  "itm.xyz": ["b", 2999],
+  "2fa.xyz": ["b", 4999], 
 
   "000002.xyz": ["m", 0], 
   "000006.xyz": ["m", 0], 
   "akimbo.xyz": ["m", 0], 
   "studious.xyz": ["b", 24999], 
 
-  "rpg.mobi": ["b", 2499],
-  "profile.sn": ["b", 1999],
-  "prfl.app": ["b", 999],
-  "tatum.app": ["b", 3999],
+  "rpg.mobi": ["b", 1999],
+  "profile.sn": ["b", 499],
+  "prfl.app": ["b", 199],
+  "tatum.app": ["b", 199],
 
   "☚.com": ["m", 0],
   "i♥.com": ["m", 0],
   "prge.com": ["m", 0],
-  "mc-u.com": ["b", 499],
-  "e2rs.com": ["b", 499],
+  "mc-u.com": ["b", 199],
+  "e2rs.com": ["b", 199],
 
-  "dakimbo.com": ["m", 0],
+  "dakimbo.com": ["b", 199],
   "akimbos.com": ["m", 0],
 
   "deluxo.com": ["m", 0],
   "bettle.com": ["m", 0],
   "ebettle.com": ["m", 0],
-  "savies.com": ["m", 0], 
+  "savies.com": ["b", 1999], 
   "armsdeal.com": ["m", 0],
   "arms.deal": ["m", 0],
   "nregistry.com": ["m", 0],
   "montington.com": ["m", 0],
 
-  "satisfy.org": ["m", 0],
+  "satisfy.org": ["b", 4999],
   "geneve.org": ["m", 0],
-  "molres.org": ["m", 0],
-  "doton.org": ["b", 499]
+  "molres.org": ["m", 0]
 };
