@@ -26,7 +26,7 @@ export const domain_names = {
   "000002.xyz": ["m", 0], 
   "000006.xyz": ["m", 0], 
   "akimbo.xyz": ["m", 0], 
-  "studious.xyz": ["b", 24999], 
+  "studious.xyz": ["m", 0], 
 
   "rpg.mobi": ["b", 1999],
   "profile.sn": ["b", 499],
