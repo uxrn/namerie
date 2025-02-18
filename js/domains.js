@@ -30,12 +30,12 @@ export const domain_names = {
 
   "rpg.mobi": ["b", 1999],
   "profile.sn": ["b", 499],
-  "prfl.app": ["b", 199],
   "tatum.app": ["b", 199],
 
   "☚.com": ["m", 0],
   "i♥.com": ["m", 0],
   "prge.com": ["m", 0],
+  "uxrn.com": ["m", 0],
   "mc-u.com": ["b", 199],
   "e2rs.com": ["b", 199],
 
