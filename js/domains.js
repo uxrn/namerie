@@ -4,16 +4,16 @@ export const domain_names = {
 
   "mc.vc": ["m", 0],
   "mc.ke": ["m", 0],
-  "p8.pw": ["b", 149], 
-  "8d.pw": ["b", 149], 
+  "p8.pw": ["m", 0], 
+  "8d.pw": ["m", 0], 
 
   "uie.net": ["m", 0],
   "uck.net": ["m", 0],
-  "m4x.net": ["b", 499],
+  "m4x.net": ["m", 0],
   "m-c.net": ["m", 0],
   "f-c.net": ["m", 0],
   "azw.org": ["m", 0],
-  "irs.biz": ["b", 999],
+  "irs.biz": ["m", 0],
 
   "uie.xyz": ["m", 0],
   "tod.xyz": ["b", 4999], 
