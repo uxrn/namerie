@@ -12,6 +12,8 @@ function binCheck() {
     document.getElementById('div-bin').style.display = "none";
     document.getElementById('div-offer').style.display = "none";
     document.getElementById('div-info').style.display = "none";
+    document.getElementById('div-info-top').style.display = "none";
+    document.getElementById('div-info-bottom').style.display = "none";
     document.getElementById('div-sedo-offer').style.display = "none";
     return;
   }
@@ -19,10 +21,12 @@ function binCheck() {
   {
     document.getElementById('div-bin').style.display = "none";
     document.getElementById('bin-price-line').style.display = "none";
+    document.getElementById('bin-price-line-mobile').style.display = "none";
   }
   else if (domain_names[url][0] == "b") 
   {
     document.getElementById('bin-button').innerHTML = domain_names[url][1].toLocaleString();
+    document.getElementById('bin-button-mobile').innerHTML = domain_names[url][1].toLocaleString();
   }
   
   document.getElementById('offer-price').setAttribute('value', domain_names[url][1]);

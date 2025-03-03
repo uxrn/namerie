@@ -7,12 +7,13 @@ body { font-size: 1em; margin: 0; }
 a { text-decoration: none; }
 .at { color: rgb(75 85 99); font-weight: bold; }
 .at:hover { background: lightgrey; color: rgb(55 65 81); }
-.f1 { font-size: 3.5em; margin: 0; }
-.f2 { font-size: 1.5em; margin: 0; font-weight: 500; }
-.f6 { font-size: 1.25em; margin: 0; }
-.f3 { font-size: 1em; margin: 0; }
-.f4 { font-size: 0.9em; margin: 0; }
-.f5 { font-size: 0.8em; margin: 0; }
+.f1 { font-size: 3em; margin: 0; word-break: normal; }
+.f1-banner { font-size: 3.5em; margin: 0; word-break: normal; }
+.f2 { font-size: 1.6em; margin: 0; font-weight: 500; }
+.f6 { font-size: 1.5em; margin: 0; }
+.f3 { font-size: 1.2em; margin: 0; }
+.f4 { font-size: 1em; margin: 0; }
+.f5 { font-size: 0.9em; margin: 0; }
 .c1 { color: rgb(16 185 129); }
 .c2 { color:rgb(156 163 175); }
 .c3 { color: rgb(55 65 81); }
@@ -23,15 +24,79 @@ a { text-decoration: none; }
 #bottom-half { display: flex; }
 #CapsLock { border: none; cursor: pointer; user-select: none; }
 #div-banner { padding: 100px 0 100px 0; background-image: linear-gradient(#313342 , #424f61); border-radius: 12px 12px 0 0; }
-#div-info { width: 400px ; padding: 22px 0 25px 25px; text-align: left; }
+#div-info-desktop { width: 400px; padding: 22px 0 25px 25px; text-align: left; }
+#div-info-mobile-top { display: none; }
+#div-info-mobile-bottom { display: none; }
 #div-buttons { max-width: 300px; align-items: center; padding: 12px 17px 0 17px; }
 #div-bin { padding: 8px 0; }
 #div-offer { padding: 8px 0; }
 #div-sedo-offer { padding: 8px 0; }
 .btn-opt-1 { color: #fff; background-color: rgba(16, 185, 129); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
 .btn-opt-1:hover { background-color: rgba(16, 185, 129, 0.8); }
-.btn-opt-2 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; }
+.btn-opt-2 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
 .btn-opt-2:hover { background-color: rgba(75, 85, 99, 0.8); }
 .btn-opt-3 { color: #fff; background-color: rgba(75, 85, 99); border-radius: 5px; border: 0px; vertical-align:middle; min-height:40px;padding:8px 20px 8px 20px; font-size: 1em; width: 240px; }
 .btn-opt-3:hover { background-color: rgba(75, 85, 99, 0.8); }
 #footer { padding: 24px 0 0 0; }
+
+@media screen and (max-width: 600px) {
+    html, body { height: 100%; }
+    #container { 
+        height: 100%;
+        display: table;
+        padding: 0;
+    }
+    #container #align { 
+        display: table-cell;
+        vertical-align: middle;
+    }
+    #top-half { 
+        min-width: unset; 
+        width: 95%; 
+        margin: 0 auto;
+    }
+    .f1 { font-size: 1.5em; }
+    .f1-banner { font-size: 2.1em; }
+    .f2 { font-size: 1.6em; }
+    .f6 { font-size: 1.5em; }
+    #div-banner { 
+        padding: 80px 15px;
+        margin-bottom: 20px;
+    }
+    #bottom-half { 
+        display: block;
+        padding: 0 20px 20px 20px;
+    }
+    #div-info-desktop { 
+        display: none;
+    }
+    #div-info-mobile-top {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    #div-info-mobile-bottom {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    #div-buttons { 
+        width: 100%;
+        max-width: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #div-bin, #div-offer, #div-sedo-offer {
+        width: 100%;
+        padding: 6px 0;
+    }
+    .btn-opt-1, .btn-opt-2, .btn-opt-3 { 
+        width: 100%;
+        max-width: none;
+        font-size: 0.95em;
+        padding: 10px;
+    }
+    .f4 { font-size: 0.85em; }
+    .f5 { font-size: 0.75em; }
+}

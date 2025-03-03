@@ -2,39 +2,43 @@
 <html lang=en>
     <head>
         <meta charset=utf-8>
-        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Namerie.com! Names to be, get 'em from the Namerie">
         <title>Namerie.com</title>
         <link rel="stylesheet" href="css/forsale.css">
     </head>
 
     <body>
-
         <div id="container">
             <div id="align">
                 <div id="top-half">
-
                     <div id="div-error" style="display:none;">
                         <p>error: invalid URL</p>
                     </div>
 
                     <div id="div-banner">
-                        <p class="f1"><a class="at c4" onclick="capCheck()" id="CapsLock" title="Caps"><span id="urlid">URL</span></a></p>
+                        <p class="f1-banner"><a class="at c4" onclick="capCheck()" id="CapsLock" title="Caps"><span id="urlid">URL</span></a></p>
                         <p class="f5 p1 c2"><i>(click the domain to change the capitalization)</i></p>
                     </div>
 
                     <div id="bottom-half">
-
-                    <div id="div-info">
-                        <h1 class="f2"><b><span id="urlid2" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
-                        <div id="bin-price-line">
-                            <h2 class="f6 c1 p1">$ <span id="bin-button">0</span> <span class="f5">USD</span></h2>
+                        <div id="div-info-desktop">
+                            <h1 class="f2"><b><span id="urlid2" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
+                            <div id="bin-price-line">
+                                <h2 class="f6 c1 p1">$ <span id="bin-button">0</span> <span class="f5">USD</span></h2>
+                            </div>
+                            <p class="f5 p2 c2">Listed and offered by </p>
+                            <span class="p2"><a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a></span>
+                            <p class="f4 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> with questions or offers.</p>
                         </div>
-                        <p class="f5 p2 c2">Listed and offered by </p>
-                        <a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a>
-                        <p class="f4 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> with questions or offers.</p>
-                        
-                    </div>
+
+                        <div id="div-info-mobile-top">
+                            <h1 class="f2"><b><span id="urlid2-mobile" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
+                            <div id="bin-price-line-mobile">
+                                <h2 class="f6 c1 p1">$ <span id="bin-button-mobile">0</span> <span class="f5">USD</span></h2>
+                            </div>
+                        </div>
+
                         <div id="div-buttons">
                             <div id="div-bin">
                                 <form action="https://www.escrow.com/checkout" method="post" target="_blank">
@@ -90,11 +94,16 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div id="div-info-mobile-bottom">
+                            <p class="f4 p2 c2">Listed and offered by </p>
+                            <span class="p2"><a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a></span>
+                            <p class="f4 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> with questions or offers.</p>
+                        </div>
                     </div>
                 </div>
 
                 <p id="footer" class="f5 c5">© Namerie.com, <script>document.write(new Date().getFullYear())</script>.</p>
-
             </div>
         </div>
         <script src="js/forsale.js"></script>
