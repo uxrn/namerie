@@ -35,8 +35,14 @@ export const domain_names = {
   "☚.com": ["m", 0],
   "i♥.com": ["m", 0],
   "☹.net": ["m", 0],
+  "₥.com": ["m", 0],
+  "com.kaufen": ["m", 0],
+  "com.sarl": ["m", 0],
+  "www.co.gg": ["m", 0],
+
   "prge.com": ["m", 0],
   "uxrn.com": ["m", 0],
+  "urdn.com": ["m", 0],
   "mc-u.com": ["b", 199],
   "e2rs.com": ["b", 199],
 
