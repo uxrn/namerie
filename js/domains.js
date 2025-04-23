@@ -40,7 +40,7 @@ export const domain_names = {
   "mc-u.com": ["b", 199],
   "e2rs.com": ["b", 199],
 
-  "dakimbo.com": ["b", 199],
+  "dakimbo.com": ["m", 0],
   "akimbos.com": ["m", 0],
 
   "deluxo.com": ["m", 0],
