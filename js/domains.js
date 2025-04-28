@@ -29,7 +29,6 @@ export const domain_names = {
   "studious.xyz": ["m", 0], 
 
   "rpg.mobi": ["b", 1999],
-  "profile.sn": ["b", 499],
   "tatum.app": ["b", 199],
 
   "☚.com": ["m", 0],
