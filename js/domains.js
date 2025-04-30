@@ -13,7 +13,7 @@ export const domain_names = {
   "m-c.net": ["m", 0],
   "f-c.net": ["m", 0],
   "azw.org": ["m", 0],
-  "irs.biz": ["b", 999],
+  "irs.biz": ["b", 499],
 
   "uie.xyz": ["m", 0],
   "tod.xyz": ["b", 4999], 
