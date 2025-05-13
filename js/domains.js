@@ -1,6 +1,7 @@
 export const domain_names = {
   "m.et": ["m", 0],
   "m.cv": ["m", 0],
+  "x.srl": ["m", 0],
 
   "mc.vc": ["m", 0],
   "mc.ke": ["m", 0],
@@ -35,6 +36,7 @@ export const domain_names = {
   "i♥.com": ["m", 0],
   "☹.net": ["m", 0],
   "₥.com": ["m", 0],
+  "€-bank.com": ["m", 0],
   "com.kaufen": ["m", 0],
   "com.sarl": ["m", 0],
   "www.co.gg": ["m", 0],
