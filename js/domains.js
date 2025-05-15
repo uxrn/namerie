@@ -37,6 +37,7 @@ export const domain_names = {
   "☹.net": ["m", 0],
   "₥.com": ["m", 0],
   "€-bank.com": ["m", 0],
+  "₭.com": ["m", 0],
   "com.kaufen": ["m", 0],
   "com.sarl": ["m", 0],
   "www.co.gg": ["m", 0],
