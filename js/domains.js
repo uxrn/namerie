@@ -15,6 +15,7 @@ export const domain_names = {
   "f-c.net": ["m", 0],
   "azw.org": ["m", 0],
   "irs.biz": ["m", 0],
+  "rpg.mobi": ["m", 0],
 
   "uie.xyz": ["m", 0],
   "tod.xyz": ["m", 0], 
@@ -28,9 +29,6 @@ export const domain_names = {
   "000006.xyz": ["m", 0], 
   "akimbo.xyz": ["m", 0], 
   "studious.xyz": ["m", 0], 
-
-  "rpg.mobi": ["m", 0],
-  "tatum.app": ["m", 0],
 
   "☚.com": ["m", 0],
   "i♥.com": ["m", 0],
@@ -49,15 +47,15 @@ export const domain_names = {
   "mc-u.com": ["m", 0],
   "e2rs.com": ["m", 0],
 
+  "arms.deal": ["m", 0],
+  "armsdeal.com": ["m", 0],
+
   "dakimbo.com": ["m", 0],
   "akimbos.com": ["m", 0],
-
-  "deluxo.com": ["m", 0],
   "bettle.com": ["m", 0],
   "ebettle.com": ["m", 0],
+  "deluxo.com": ["m", 0],
   "savies.com": ["m", 0], 
-  "armsdeal.com": ["m", 0],
-  "arms.deal": ["m", 0],
   "nregistry.com": ["m", 0],
   "montington.com": ["m", 0],
 
