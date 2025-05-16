@@ -5,25 +5,25 @@ export const domain_names = {
 
   "mc.vc": ["m", 0],
   "mc.ke": ["m", 0],
-  "p8.pw": ["m", 0], 
-  "8d.pw": ["m", 0], 
+  "p8.pw": ["s", 0], 
+  "8d.pw": ["s", 0], 
 
   "uie.net": ["m", 0],
   "uck.net": ["m", 0],
-  "m4x.net": ["m", 0],
+  "m4x.net": ["s", 0],
   "m-c.net": ["m", 0],
   "f-c.net": ["m", 0],
   "azw.org": ["m", 0],
-  "irs.biz": ["m", 0],
-  "rpg.mobi": ["m", 0],
+  "irs.biz": ["s", 0],
+  "rpg.mobi": ["s", 0],
 
   "uie.xyz": ["m", 0],
-  "tod.xyz": ["m", 0], 
-  "orc.xyz": ["m", 0],
-  "dab.xyz": ["m", 0],
+  "tod.xyz": ["s", 0], 
+  "orc.xyz": ["s", 0],
+  "dab.xyz": ["s", 0],
   "ron.xyz": ["m", 0],
-  "itm.xyz": ["m", 0],
-  "2fa.xyz": ["m", 0], 
+  "itm.xyz": ["s", 0],
+  "2fa.xyz": ["s", 0], 
 
   "000002.xyz": ["m", 0], 
   "000006.xyz": ["m", 0], 
@@ -37,7 +37,7 @@ export const domain_names = {
   "€-bank.com": ["m", 0],
   "i♥u.com": ["m", 0],
   "₭.com": ["m", 0],
-  "com.kaufen": ["m", 0],
+  "com.kaufen": ["s", 0],
   "com.sarl": ["m", 0],
   "www.co.gg": ["m", 0],
 
@@ -45,7 +45,7 @@ export const domain_names = {
   "uxrn.com": ["m", 0],
   "urdn.com": ["m", 0],
   "mc-u.com": ["s", 0],
-  "e2rs.com": ["m", 0],
+  "e2rs.com": ["s", 0],
 
   "arms.deal": ["m", 0],
   "armsdeal.com": ["m", 0],
@@ -55,11 +55,11 @@ export const domain_names = {
   "bettle.com": ["m", 0],
   "ebettle.com": ["m", 0],
   "deluxo.com": ["m", 0],
-  "savies.com": ["m", 0], 
+  "savies.com": ["s", 0], 
   "nregistry.com": ["m", 0],
   "montington.com": ["m", 0],
 
-  "satisfy.org": ["b", 6000],
-  "geneve.org": ["m", 0],
+  "satisfy.org": ["s", 0],
+  "geneve.org": ["s", 0],
   "molres.org": ["m", 0]
 };
