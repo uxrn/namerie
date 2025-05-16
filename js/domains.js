@@ -44,7 +44,7 @@ export const domain_names = {
   "prge.com": ["m", 0],
   "uxrn.com": ["m", 0],
   "urdn.com": ["m", 0],
-  "mc-u.com": ["m", 0],
+  "mc-u.com": ["s", 0],
   "e2rs.com": ["m", 0],
 
   "arms.deal": ["m", 0],
@@ -59,7 +59,7 @@ export const domain_names = {
   "nregistry.com": ["m", 0],
   "montington.com": ["m", 0],
 
-  "satisfy.org": ["m", 0],
+  "satisfy.org": ["b", 6000],
   "geneve.org": ["m", 0],
   "molres.org": ["m", 0]
 };

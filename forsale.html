@@ -20,92 +20,107 @@
                         <p>error: invalid URL</p>
                     </div>
 
-                    <div id="div-banner">
-                        <p class="f1-banner"><a class="at c4" onclick="capCheck()" id="CapsLock" title="Caps"><span id="urlid">URL</span></a></p>
-                        <p class="f5 p1 c2"><i>(click the domain to change the capitalization)</i></p>
+                    <div id="div-error-hide">
+
+                        <div id="div-banner">
+                            <p class="f1-banner"><a class="at c4" onclick="capCheck()" id="CapsLock" title="Caps"><span id="urlid">URL</span></a></p>
+                            <p class="f5 p1 c2"><i>(click the domain to change the capitalization)</i></p>
+                        </div>
+
+                        <div id="div-info-section">
+
+                            <div id="div-info-desktop">
+                                <h1 class="f2"><b><span id="urlid2" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
+                                <div id="bin-price-line">
+                                    <h2 class="f6 c1 p1">$ <span id="bin-button">0</span> <span class="f5">USD</span></h2>
+                                </div>
+                                <div class="p2"><a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a></div>
+                                <p class="f5 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> for inquiries.</p>
+                            </div>
+
+                            <div id="div-info-mobile-top">
+                                <h1 class="f2"><b><span id="urlid2-mobile" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
+                                <div id="bin-price-line-mobile">
+                                    <h2 class="f6 c1 p1">$ <span id="bin-button-mobile">0</span> <span class="f5">USD</span></h2>
+                                </div>
+                            </div>
+
+                            <div id="div-buttons">
+                                <div id="div-escrow-bin">
+                                    <form action="https://www.escrow.com/checkout" method="post" target="_blank">
+                                        <input type="hidden" name="type" value="domain_name">
+                                        <input type="hidden" name="non_initiator_email" value="offer@namerie.com">
+                                        <input type="hidden" name="non_initiator_id" value="2784092">
+                                        <input type="hidden" name="non_initiator_role" value="seller">
+                                        <input id="bin-title" type="hidden" name="title" value="namerie-domain-sale">
+                                        <input type="hidden" name="currency" value="USD">
+                                        <input id="bin-name" type="hidden" name="domain" value="">
+                                        <input id="bin-price" type="hidden" name="price" value="">
+                                        <input type="hidden" name="concierge" value="false">
+                                        <input type="hidden" name="with_content" value="false">
+                                        <input type="hidden" name="inspection_period" value="2">
+                                        <input type="hidden" name="fee_payer" value="seller">
+                                        <input type="hidden" name="return_url" value="">
+                                        <input type="hidden" name="button_types" value="buy_now">
+                                        <input type="hidden" name="auto_accept" value="">
+                                        <input type="hidden" name="auto_reject" value="100">
+                                        <input type="hidden" name="item_key" value="undefined">
+                                        <button class="btn-opt-1" type="submit">Buy now at <b>Escrow.com</b></button>
+                                        <img id="bin-img-title" src="https://t.escrow.com/1px.gif?name=bin&price=499&title=namerie-domain-sale&user_id=2784092" style="display: none;">
+                                    </form>
+                                </div>
+
+                                <div id="div-sedo-bin">
+                                    <a id="sedo-form2" href="#" target="_blank">
+                                        <button class="btn-opt-1">Buy now at <b>Sedo.com</b></button>
+                                    </a>
+                                </div>
+
+                                <div id="div-escrow-offer">
+                                    <form action="https://www.escrow.com/offer" method="post" target="_blank">
+                                        <input type="hidden" name="type" value="domain_name">
+                                        <input type="hidden" name="non_initiator_email" value="offer@namerie.com">
+                                        <input type="hidden" name="non_initiator_id" value="2784092">
+                                        <input type="hidden" name="non_initiator_role" value="seller">
+                                        <input id="offer-title" type="hidden" name="title" value="namerie-domain-sale">
+                                        <input type="hidden" name="currency" value="USD">
+                                        <input id="offer-name" type="hidden" name="domain" value="">
+                                        <input id="offer-price" type="hidden" name="price" value="0">
+                                        <input type="hidden" name="concierge" value="false">
+                                        <input type="hidden" name="with_content" value="false">
+                                        <input type="hidden" name="inspection_period" value="2">
+                                        <input type="hidden" name="fee_payer" value="seller">
+                                        <input type="hidden" name="return_url" value="">
+                                        <input type="hidden" name="button_types" value="make_offer">
+                                        <input type="hidden" name="auto_accept" value="">
+                                        <input type="hidden" name="auto_reject" value="100">
+                                        <input type="hidden" name="item_key" value="">
+                                        <button class="btn-opt-2" type="submit">Make offer via <b>Escrow.com</b></button>
+                                        <img id="offer-img-title" src="https://t.escrow.com/1px.gif?name=bin&price=0&title=namerie-domain-sale&user_id=2784092" style="display: none;">
+                                    </form>
+                                </div>
+
+                                <div id="div-sedo-offer">
+                                    <a id="sedo-form" href="#" target="_blank">
+                                        <button class="btn-opt-2">Make offer via <b>Sedo.com</b></button>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div id="div-info-mobile-bottom">
+                                <div class="p2"><a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a></div>
+                                <p class="f5 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> for inquiries.</p>
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <div id="bottom-half">
-                        <div id="div-info-desktop">
-                            <h1 class="f2"><b><span id="urlid2" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
-                            <div id="bin-price-line">
-                                <h2 class="f6 c1 p1">$ <span id="bin-button">0</span> <span class="f5">USD</span></h2>
-                            </div>
-                            <div class="p2"><a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a></div>
-                            <p class="f5 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> for inquiries.</p>
-                        </div>
-
-                        <div id="div-info-mobile-top">
-                            <h1 class="f2"><b><span id="urlid2-mobile" class="c3">URL</span></b> <span class="c2">is for sale!</span></h1>
-                            <div id="bin-price-line-mobile">
-                                <h2 class="f6 c1 p1">$ <span id="bin-button-mobile">0</span> <span class="f5">USD</span></h2>
-                            </div>
-                        </div>
-
-                        <div id="div-buttons">
-                            <div id="div-bin">
-                                <form action="https://www.escrow.com/checkout" method="post" target="_blank">
-                                    <input type="hidden" name="type" value="domain_name">
-                                    <input type="hidden" name="non_initiator_email" value="offer@namerie.com">
-                                    <input type="hidden" name="non_initiator_id" value="2784092">
-                                    <input type="hidden" name="non_initiator_role" value="seller">
-                                    <input id="bin-title" type="hidden" name="title" value="namerie-domain-sale">
-                                    <input type="hidden" name="currency" value="USD">
-                                    <input id="bin-name" type="hidden" name="domain" value="">
-                                    <input id="bin-price" type="hidden" name="price" value="">
-                                    <input type="hidden" name="concierge" value="false">
-                                    <input type="hidden" name="with_content" value="false">
-                                    <input type="hidden" name="inspection_period" value="2">
-                                    <input type="hidden" name="fee_payer" value="seller">
-                                    <input type="hidden" name="return_url" value="">
-                                    <input type="hidden" name="button_types" value="buy_now">
-                                    <input type="hidden" name="auto_accept" value="">
-                                    <input type="hidden" name="auto_reject" value="100">
-                                    <input type="hidden" name="item_key" value="undefined">
-                                    <button class="btn-opt-1" type="submit">Buy now with <b>Escrow.com</b></button>
-                                    <img id="bin-img-title" src="https://t.escrow.com/1px.gif?name=bin&price=499&title=namerie-domain-sale&user_id=2784092" style="display: none;">
-                                </form>
-                            </div>
-
-                            <div id="div-offer">
-                                <form action="https://www.escrow.com/offer" method="post" target="_blank">
-                                    <input type="hidden" name="type" value="domain_name">
-                                    <input type="hidden" name="non_initiator_email" value="offer@namerie.com">
-                                    <input type="hidden" name="non_initiator_id" value="2784092">
-                                    <input type="hidden" name="non_initiator_role" value="seller">
-                                    <input id="offer-title" type="hidden" name="title" value="namerie-domain-sale">
-                                    <input type="hidden" name="currency" value="USD">
-                                    <input id="offer-name" type="hidden" name="domain" value="">
-                                    <input id="offer-price" type="hidden" name="price" value="0">
-                                    <input type="hidden" name="concierge" value="false">
-                                    <input type="hidden" name="with_content" value="false">
-                                    <input type="hidden" name="inspection_period" value="2">
-                                    <input type="hidden" name="fee_payer" value="seller">
-                                    <input type="hidden" name="return_url" value="">
-                                    <input type="hidden" name="button_types" value="make_offer">
-                                    <input type="hidden" name="auto_accept" value="">
-                                    <input type="hidden" name="auto_reject" value="100">
-                                    <input type="hidden" name="item_key" value="">
-                                    <button class="btn-opt-2" type="submit">Make offer via <b>Escrow.com</b></button>
-                                    <img id="offer-img-title" src="https://t.escrow.com/1px.gif?name=bin&price=0&title=namerie-domain-sale&user_id=2784092" style="display: none;">
-                                </form>
-                            </div>
-
-                            <div id="div-sedo-offer">
-                                <a id="sedo-form" href="#" target="_blank">
-                                    <button class="btn-opt-3">Make offer via <b>Sedo.com</b></button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div id="div-info-mobile-bottom">
-                            <div class="p2"><a href="https://namerie.com"><img src="namerie.png" width="160" height="40" /></a></div>
-                            <p class="f5 c2">Email <a class="at" href="mailto:offer@namerie.com">offer@namerie.com</a> for inquiries.</p>
-                        </div>
-                    </div>
                 </div>
 
                 <p id="footer" class="f5 c5">© Namerie.com, <script>document.write(new Date().getFullYear())</script>.</p>
+
             </div>
         </div>
         <script src="js/forsale.js"></script>
