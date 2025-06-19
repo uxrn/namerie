@@ -8,6 +8,7 @@ export const domain_names = {
   "mc.td": ["m", 0],
   "p8.pw": ["s", 0], 
   "8d.pw": ["s", 0], 
+  "dn.onl": ["m", 0], 
 
   "uie.net": ["m", 0],
   "uck.net": ["m", 0],
