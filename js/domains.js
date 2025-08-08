@@ -7,6 +7,7 @@ export const domain_names = {
   "mc.ke": ["m", 0],
   "mc.td": ["m", 0],
   "8d.pw": ["s", 0], 
+  "np.gl": ["m", 0],
   "dn.onl": ["s", 0], 
 
   "uie.net": ["s", 0],
@@ -28,6 +29,10 @@ export const domain_names = {
 
   "000002.xyz": ["m", 0], 
   "000006.xyz": ["m", 0], 
+  "333373.xyz": ["m", 0], 
+  "222122.xyz": ["m", 0], 
+  "898888.xyz": ["m", 0], 
+  "989999.xyz": ["m", 0], 
   "akimbo.xyz": ["m", 0], 
   "studious.xyz": ["m", 0], 
 
@@ -39,6 +44,7 @@ export const domain_names = {
   "i♥u.com": ["m", 0],
   "₭.com": ["m", 0],
   "☴.com": ["s", 0],
+  
   "com.kaufen": ["s", 0],
   "com.sarl": ["m", 0],
   "www.co.gg": ["m", 0],
