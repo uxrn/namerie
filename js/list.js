@@ -12,6 +12,12 @@ const getTLD = (domain) => {
   return parts[parts.length - 1];
 };
 
+// Function to check if a domain is unicode (starts with "xn--" or contains unicode symbols)
+const isUnicodeDomain = (domain) => {
+  const sld = getSLD(domain);
+  return sld.startsWith('xn--') || /[\u0080-\uFFFF]/.test(domain);
+};
+
 // Function to create a category section
 const createCategorySection = (title, domains) => {
   if (!domains || domains.length === 0) return null;
@@ -28,7 +34,16 @@ const createCategorySection = (title, domains) => {
 
   domains.forEach(domain => {
     const li = document.createElement('li');
-    li.onclick = () => window.open(`https://namerie.com/forsale.html?url=${domain}`, '_blank');
+    li.onclick = () => {
+      const domainInfo = domain_names[domain];
+      if (domainInfo && domainInfo[0] === 'r') {
+        // Redirect domains go to Spaceship.com
+        window.open(`https://www.spaceship.com/domain-search/?query=${domain}&utm_source=namerie.com`, '_blank');
+      } else {
+        // Direct domains go directly to the domain
+        window.open(`https://${domain}`, '_blank');
+      }
+    };
     li.textContent = domain;
     ul.appendChild(li);
   });
@@ -59,12 +74,16 @@ const populateDNList = () => {
   const orgDomains = [];
   const xyzDomains = [];
   const otherDomains = [];
+  const unicodeDomains = [];
 
   domainKeys.forEach(domain => {
     const sld = getSLD(domain);
     const tld = getTLD(domain);
 
-    if (sld.length <= 2) {
+    // Check if it's a unicode domain first
+    if (isUnicodeDomain(domain)) {
+      unicodeDomains.push(domain);
+    } else if (sld.length <= 2) {
       shortDomains.push(domain);
     } else {
       switch (tld) {
@@ -89,12 +108,14 @@ const populateDNList = () => {
 
   // Sort each category
   const categories = [
-    { title: '1-2 character domains', domains: sortDomains(shortDomains) },
-    { title: '.com domains', domains: sortDomains(comDomains) },
-    { title: '.net domains', domains: sortDomains(netDomains) },
-    { title: '.org domains', domains: sortDomains(orgDomains) },
-    { title: '.xyz domains', domains: sortDomains(xyzDomains) },
-    { title: 'other domains', domains: sortDomains(otherDomains) }
+    { title: '1-2 character', domains: sortDomains(shortDomains) },
+    { title: '.com', domains: sortDomains(comDomains) },
+    { title: '.net', domains: sortDomains(netDomains) },
+    { title: '.org', domains: sortDomains(orgDomains) },
+    { title: '.xyz', domains: sortDomains(xyzDomains) },
+    { title: 'unicode', domains: sortDomains(unicodeDomains) },
+    { title: 'other', domains: sortDomains(otherDomains) }
+
   ];
 
   // Clear existing content

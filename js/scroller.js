@@ -50,8 +50,17 @@ const populateListRandomly = () => {
     const li = document.createElement('li');
     li.classList.add('tag-list'); // Optional, for styling purposes
 
-    // Set the onclick event to open the URL in a new tab
-    li.onclick = () => window.open(`https://namerie.com/forsale.html?url=${domain}`, '_blank');
+    // Set the onclick event based on domain type
+    li.onclick = () => {
+      const domainInfo = domain_names[domain];
+      if (domainInfo && domainInfo[0] === 'r') {
+        // Redirect domains go to Spaceship.com
+        window.open(`https://www.spaceship.com/domain-search/?query=${domain}&utm_source=namerie.com`, '_blank');
+      } else {
+        // Direct domains go directly to the domain
+        window.open(`https://${domain}`, '_blank');
+      }
+    };
     li.textContent = domain; // Set the text inside <li>
     
     ul.appendChild(li);
