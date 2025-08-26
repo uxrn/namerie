@@ -20,7 +20,6 @@ export const domain_names = {
   "rpg.mobi": ["s", 0],
 
   "uie.xyz": ["s", 0],
-  "tod.xyz": ["s", 0], 
   "orc.xyz": ["s", 0],
   "dab.xyz": ["s", 0],
   "ron.xyz": ["m", 0],
@@ -70,3 +69,4 @@ export const domain_names = {
   "geneve.org": ["s", 0],
   "molres.org": ["m", 0]
 };
+
