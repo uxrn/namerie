@@ -39,6 +39,9 @@ const createCategorySection = (title, domains) => {
       if (domainInfo && domainInfo[0] === 'r') {
         // Redirect domains go to Spaceship.com
         window.open(`https://www.spaceship.com/domain-search/?query=${domain}&utm_source=namerie.com`, '_blank');
+      } else if (domainInfo && domainInfo[0] === 's') {
+        // Sedo domains go to Sedo.com
+        window.open(`https://sedo.com/checkdomainoffer.php?language=us&domain=${domain}&&campaignId=333846`, '_blank');
       } else {
         // Direct domains go directly to the domain
         window.open(`https://${domain}`, '_blank');
