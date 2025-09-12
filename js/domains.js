@@ -2,6 +2,7 @@ export const domain_names = {
   "m.et": ["r", 0],
   "m.cv": ["r", 0],
   "x.srl": ["d", 0],
+  "o.bo": ["r", 0],
 
   "mc.vc": ["r", 0],
   "mc.ke": ["r", 0],
@@ -18,6 +19,7 @@ export const domain_names = {
   "azw.org": ["d", 0],
   "irs.biz": ["d", 0],
   "rpg.mobi": ["d", 0],
+  "gfv.ai": ["d", 0],
 
   "uie.xyz": ["d", 0],
   "orc.xyz": ["d", 0],
@@ -68,4 +70,5 @@ export const domain_names = {
   "satisfy.org": ["d", 0],
   "geneve.org": ["d", 0],
   "molres.org": ["r", 0]
+
 };
