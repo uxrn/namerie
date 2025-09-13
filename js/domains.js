@@ -69,7 +69,10 @@ export const domain_names = {
 
   "satisfy.org": ["d", 0],
   "geneve.org": ["d", 0],
-  "molres.org": ["r", 0]
+  "molres.org": ["r", 0],
 
+  "🤣.st": ["r", 0],
+  "📧.st": ["r", 0],
+  "🌐.st": ["r", 0],
+  "👏.st": ["r", 0]
 };
-
