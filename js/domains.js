@@ -46,6 +46,7 @@ export const domain_names = {
   "i♥u.com": ["r", 0],
   "₭.com": ["r", 0],
   "☴.com": ["r", 0],
+  "♥♬.com.com": ["r", 0],
   
   "com.kaufen": ["d", 0],
   "com.sarl": ["d", 0],
@@ -77,4 +78,5 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
