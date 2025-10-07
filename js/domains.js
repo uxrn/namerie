@@ -76,7 +76,3 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
-
-
-
-
