@@ -63,11 +63,9 @@ export const domain_names = {
   "bettle.com": ["d", 0],
   "ebettle.com": ["r", 0],
   "deluxo.com": ["r", 0],
-  "savies.com": ["d", 0], 
   "montington.com": ["d", 0],
 
   "satisfy.org": ["d", 0],
-  "geneve.org": ["d", 0],
   "molres.org": ["r", 0],
 
   "🤣.st": ["r", 0],
@@ -75,4 +73,5 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
