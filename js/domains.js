@@ -33,7 +33,7 @@ export const domain_names = {
   "333373.xyz": ["d", 0], 
   "222122.xyz": ["d", 0], 
   "898888.xyz": ["d", 0], 
-  "989999.xyz": ["d", 0], 
+  "988888.xyz": ["d", 0], 
   "akimbo.xyz": ["d", 0], 
   "studious.xyz": ["d", 0], 
 
@@ -73,5 +73,6 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
 
