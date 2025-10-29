@@ -51,6 +51,7 @@ export const domain_names = {
   "com.kaufen": ["d", 0],
   "com.sarl": ["d", 0],
   "www.co.gg": ["d", 0],
+  "fail.fail": ["r", 0],
 
   "prge.com": ["d", 0],
   "uxrn.com": ["d", 0],
@@ -74,6 +75,7 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
 
 
