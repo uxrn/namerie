@@ -55,7 +55,7 @@ export const domain_names = {
 
   "prge.com": ["d", 0],
   "uxrn.com": ["d", 0],
-  "urdn.com": ["r", 0],
+  "urdn.com": ["d", 0],
 
   "arms.deal": ["d", 0],
   "armsdeal.com": ["d", 0],
@@ -75,6 +75,7 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
 
 
