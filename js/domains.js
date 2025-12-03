@@ -13,7 +13,7 @@ export const domain_names = {
 
   "uie.net": ["d", 0],
   "uck.net": ["d", 0],
-  "m-c.net": ["d", 0],
+  "m-c.net": ["r", 0],
   "f-c.net": ["d", 0],
   "azw.org": ["d", 0],
   "irs.biz": ["d", 0],
@@ -74,6 +74,7 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
 
 
