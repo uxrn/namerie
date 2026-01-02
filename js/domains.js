@@ -4,6 +4,10 @@ export const domain_names = {
   "x.srl": ["d", 0],
   "o.bo": ["r", 0],
 
+  "t9.be": ["d", 0],
+  "7a.be": ["d", 0],
+  "5z.be": ["d", 0],
+
   "mc.vc": ["r", 0],
   "mc.td": ["r", 0],
   "mc.gy": ["r", 0],
@@ -73,6 +77,7 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
 
 
