@@ -53,7 +53,7 @@ export const domain_names = {
   "fail.fail": ["r", 0],
 
   "prge.com": ["d", 0],
-  "uxrn.com": ["d", 0],
+  "uxrn.com": ["r", 0],
   "urdn.com": ["d", 0],
 
   "arms.deal": ["d", 0],
@@ -66,7 +66,6 @@ export const domain_names = {
   "deluxo.com": ["r", 0],
   "montington.com": ["d", 0],
 
-  "satisfy.org": ["d", 0],
   "molres.org": ["r", 0],
 
   "🤣.st": ["r", 0],
@@ -74,6 +73,7 @@ export const domain_names = {
   "🌐.st": ["r", 0],
   "👏.st": ["r", 0]
 };
+
 
 
 
