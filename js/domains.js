@@ -1,16 +1,16 @@
 export const domain_names = {
-  "m.et": ["r", 0],
+  "m.et": ["d", 0],
   "m.cv": ["r", 0],
   "x.srl": ["d", 0],
-  "o.bo": ["r", 0],
+  "o.bo": ["d", 0],
 
   "t9.be": ["d", 0],
   "7a.be": ["d", 0],
   "5z.be": ["d", 0],
 
   "mc.vc": ["r", 0],
-  "mc.td": ["r", 0],
-  "mc.gy": ["r", 0],
+  "mc.td": ["d", 0],
+  "mc.gy": ["d", 0],
   "8d.pw": ["d", 0], 
   "np.gl": ["r", 0],
   "dn.onl": ["d", 0], 
@@ -54,14 +54,14 @@ export const domain_names = {
   "com.kaufen": ["d", 0],
   "com.sarl": ["d", 0],
   "www.co.gg": ["d", 0],
-  "fail.fail": ["r", 0],
+  "fail.fail": ["d", 0],
 
   "prge.com": ["d", 0],
-  "uxrn.com": ["r", 0],
+  "uxrn.com": ["d", 0],
   "urdn.com": ["d", 0],
 
-  "arms.deal": ["d", 0],
-  "armsdeal.com": ["d", 0],
+  "arms.deal": ["r", 0],
+  "armsdeal.com": ["r", 0],
 
   "dakimbo.com": ["d", 0],
   "akimbos.com": ["d", 0],
@@ -72,18 +72,8 @@ export const domain_names = {
 
   "molres.org": ["r", 0],
 
-  "🤣.st": ["r", 0],
-  "📧.st": ["r", 0],
-  "🌐.st": ["r", 0],
-  "👏.st": ["r", 0]
+  "🤣.st": ["d", 0],
+  "📧.st": ["d", 0],
+  "🌐.st": ["d", 0],
+  "👏.st": ["d", 0]
 };
-
-
-
-
-
-
-
-
-
-
