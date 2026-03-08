@@ -3,8 +3,8 @@ html, body {
   width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
-  background-color: #031242;
-  color: #ffffff;
+  background-color: #EDF1F5;
+  color: #031242;
 }
 
 .fs-container {
@@ -20,17 +20,17 @@ html, body {
 .category {
   margin: 2rem 0;
   text-align: center;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   border-radius: 12px;
   padding: 1.5rem;
-  border: 1px solid #333333;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid #c5cdd6;
+  box-shadow: 0 4px 12px rgba(3, 18, 66, 0.08);
 }
 
 .category h2 {
   margin-bottom: 1.5rem;
-  color: #ffffff;
-  border-bottom: 2px solid #EDF1F5;
+  color: #031242;
+  border-bottom: 2px solid #031242;
   padding-bottom: 0.75rem;
   margin-top: 0;
   font-size: 1.3em;
@@ -52,8 +52,8 @@ html, body {
 
 .fs-list li {
   padding: 0.75rem;
-  background: #2a2a2a;
-  border: 2px solid #404040;
+  background: #ffffff;
+  border: 2px solid #c5cdd6;
   border-radius: 8px;
   text-align: center;
   transition: all 0.3s ease;
@@ -64,24 +64,33 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #031242;
   font-weight: 500;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(3, 18, 66, 0.06);
   box-sizing: border-box;
   word-break: break-word;
   overflow-wrap: break-word;
 }
 
 .fs-list li:hover {
-  background-color: #3a3a3a;
-  border-color: #ebebeb;
+  background-color: #e0e6ed;
+  border-color: #031242;
   cursor: pointer;
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(201, 201, 201, 0.3);
+  box-shadow: 0 4px 16px rgba(3, 18, 66, 0.12);
 }
 
 .fs-img-pad {
   padding-top: 3rem;
+}
+
+/* List page links on gray background - match homepage */
+.lp a {
+  color: #031242;
+}
+.lp a:hover {
+  background: lightgrey;
+  color: #031242;
 }
 
 /* Tablet devices */
