@@ -70,7 +70,7 @@ export const domain_names = {
   "deluxo.com": ["r", 0],
   "montington.com": ["d", 0],
 
-  "molres.org": ["r", 0],
+  "molres.org": ["d", 0],
 
   "🤣.st": ["d", 0],
   "📧.st": ["d", 0],
