@@ -11,7 +11,6 @@ export const domain_names = {
   "mc.vc": ["r", 0],
   "mc.td": ["d", 0],
   "mc.gy": ["d", 0],
-  "8d.pw": ["d", 0], 
   "np.gl": ["r", 0],
   "dn.onl": ["d", 0], 
 
