@@ -56,7 +56,7 @@ export const domain_names = {
   "fail.fail": ["d", 0],
 
   "prge.com": ["d", 0],
-  "uxrn.com": ["d", 0],
+  "uxrn.com": ["r", 0],
   "urdn.com": ["d", 0],
 
   "arms.deal": ["r", 0],
