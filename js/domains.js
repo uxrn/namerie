@@ -62,12 +62,9 @@ export const domain_names = {
   "arms.deal": ["r", 0],
   "armsdeal.com": ["r", 0],
 
-  "dakimbo.com": ["d", 0],
-  "akimbos.com": ["d", 0],
   "bettle.com": ["d", 0],
   "ebettle.com": ["r", 0],
   "deluxo.com": ["r", 0],
-  "montington.com": ["d", 0],
 
   "molres.org": ["d", 0]
 };
