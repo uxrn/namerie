@@ -12,7 +12,6 @@ export const domain_names = {
   "mc.td": ["d", 0],
   "mc.gy": ["d", 0],
   "np.gl": ["d", 0],
-  "dn.onl": ["d", 0], 
 
   "uie.net": ["d", 0],
   "uck.net": ["d", 0],
@@ -37,6 +36,7 @@ export const domain_names = {
   "898888.xyz": ["d", 0], 
   "988888.xyz": ["d", 0], 
   "999989.xyz": ["d", 0], 
+  
   "akimbo.xyz": ["d", 0], 
   "studious.xyz": ["d", 0], 
 
@@ -69,10 +69,5 @@ export const domain_names = {
   "deluxo.com": ["r", 0],
   "montington.com": ["d", 0],
 
-  "molres.org": ["d", 0],
-
-  "🤣.st": ["d", 0],
-  "📧.st": ["d", 0],
-  "🌐.st": ["d", 0],
-  "👏.st": ["d", 0]
+  "molres.org": ["d", 0]
 };
