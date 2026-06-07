@@ -68,5 +68,5 @@ export const domain_names = {
   "ebettle.com": ["r", 0],
   "deluxo.com": ["r", 0],
 
-  "molres.org": ["d", 0, "~110th oldest .org, since 1991", "bn"]
+  "molres.org": ["d", 0, "~110th oldest .org (1991)", "bn"]
 };
