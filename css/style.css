@@ -15,6 +15,6 @@ body { font-size: 1.3em; margin: 0; }
 .ft { font-size: .6em; padding: 40px 0px; }
 #token {height: 50px; position: absolute; pointer-events: auto; }
 #tokenbubble {width: 900px; height: 600px; position: absolute; margin: -175px 0 0 -150px; pointer-events: none; }
-#hdr-txt { font-family: 'typoround', sans-serif; font-size: 3.9em; margin-bottom: 10px; letter-spacing: -0.05em; }
+#hdr-txt { font-family: 'typoround', sans-serif; font-size: 3.5em; margin-bottom: 10px; letter-spacing: -0.05em; }
 #hdr-txt a { color: #031242; text-decoration: none; }
 #hdr-txt a:hover { background: lightgrey; color: #031242; }

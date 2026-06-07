@@ -59,11 +59,12 @@ html, body {
   transition: all 0.3s ease;
   font-size: 0.8em;
   line-height: 1.2;
-  min-height: 2.4em;
-  height: 50px;
+  min-height: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.25rem;
   color: #031242;
   font-weight: 500;
   box-shadow: 0 2px 8px rgba(3, 18, 66, 0.06);
@@ -72,12 +73,31 @@ html, body {
   overflow-wrap: break-word;
 }
 
+.fs-list li .domain-caption {
+  font-size: 0.65em;
+  font-weight: 400;
+  font-style: italic;
+  color: #5a6a7e;
+  opacity: 0.75;
+  line-height: 1.1;
+}
+
+.fs-list li.tile-bn {
+  background: #e8f3ea;
+  border-color: #a8cdb0;
+}
+
 .fs-list li:hover {
   background-color: #e0e6ed;
   border-color: #031242;
   cursor: pointer;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(3, 18, 66, 0.12);
+}
+
+.fs-list li.tile-bn:hover {
+  background-color: #d4e9d8;
+  border-color: #031242;
 }
 
 .fs-img-pad {

@@ -34,8 +34,9 @@ const createCategorySection = (title, domains) => {
 
   domains.forEach(domain => {
     const li = document.createElement('li');
+    const domainInfo = domain_names[domain];
+
     li.onclick = () => {
-      const domainInfo = domain_names[domain];
       if (domainInfo && domainInfo[0] === 'r') {
         // Redirect domains go to Spaceship.com
         window.open(`https://www.spaceship.com/domain-search/?query=${domain}&utm_source=namerie.com`, '_blank');
@@ -47,7 +48,24 @@ const createCategorySection = (title, domains) => {
         window.open(`http://${domain}/?utm_source=namerie.com`, '_blank');
       }
     };
-    li.textContent = domain;
+
+    const nameSpan = document.createElement('span');
+    nameSpan.classList.add('domain-name');
+    nameSpan.textContent = domain;
+    li.appendChild(nameSpan);
+
+    const caption = domainInfo && domainInfo[2];
+    if (caption) {
+      const captionSpan = document.createElement('span');
+      captionSpan.classList.add('domain-caption');
+      captionSpan.textContent = caption;
+      li.appendChild(captionSpan);
+    }
+
+    if (domainInfo && domainInfo[3] === 'bn') {
+      li.classList.add('tile-bn');
+    }
+
     ul.appendChild(li);
   });
 
