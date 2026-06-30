@@ -62,10 +62,11 @@ export const domain_names = {
   "urdn.com": ["d", 0, undefined, "bn"],
 
   "armsdeal.com": ["r", 0, "includes arms.deal"],
-
   "bettle.com": ["d", 0, undefined, "bn"],
   "ebettle.com": ["r", 0],
-  "deluxo.com": ["r", 0],
-
-  "molres.org": ["d", 0, "~110th oldest .org (1991)", "bn"]
+  "deluxo.com": ["r", "includes .net and .org", 0],
+  "molres.org": ["d", 0, "~110th oldest .org (1991)", "bn"],
+  "q-mail.com": ["d", 0],
+  "profile.onl": ["d", 0],
+  "profile.click": ["d", 0]
 };
