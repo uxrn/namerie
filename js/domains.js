@@ -13,7 +13,6 @@ export const domain_names = {
   "5z.be": ["d", 0, undefined, "bn"],
 
   "mc.vc": ["r", 0],
-  "mc.td": ["d", 0, undefined, "bn"],
   "mc.gy": ["d", 0, undefined, "bn"],
   "np.gl": ["d", 0, undefined, "bn"],
 
