@@ -9,8 +9,7 @@ export const domain_names = {
   "o.bo": ["d", 0],
 
   "mc.vc": ["r", 0],
-  "mc.gy": ["d", 0, undefined, "bn"],
-  "np.gl": ["d", 0, undefined, "bn"],
+  "mc.vg": ["r", 0],
 
   "uie.net": ["d", 0],
   "uck.net": ["d", 0, undefined, "bn"],
