@@ -8,10 +8,6 @@ export const domain_names = {
   "x.srl": ["d", 0, undefined, "bn"],
   "o.bo": ["d", 0],
 
-  "t9.be": ["d", 0, undefined, "bn"],
-  "7a.be": ["d", 0, undefined, "bn"],
-  "5z.be": ["d", 0, undefined, "bn"],
-
   "mc.vc": ["r", 0],
   "mc.gy": ["d", 0, undefined, "bn"],
   "np.gl": ["d", 0, undefined, "bn"],
