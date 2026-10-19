@@ -46,6 +46,7 @@ export const domain_names = {
   "₭.com": ["r", 0],
   "☴.com": ["d", 0, undefined, "bn"],
   "♪♬.com": ["r", 0, undefined, "bn"],
+  "¿.com": ["r", 0],
   
   "com.kaufen": ["d", 0, undefined, "bn"],
   "com.sarl": ["d", 0, undefined, "bn"],
