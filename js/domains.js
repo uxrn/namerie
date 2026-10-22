@@ -63,6 +63,5 @@ export const domain_names = {
   "deluxo.com": ["r", 0, "includes .net and .org"],
   "molres.org": ["d", 0, "~110th oldest .org (1991)", "bn"],
   "q-mail.com": ["d", 0],
-  "profile.onl": ["d", 0],
-  "profile.click": ["d", 0]
+  "profile.onl": ["d", 0]
 };
