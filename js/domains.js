@@ -57,7 +57,7 @@ export const domain_names = {
   "uxrn.com": ["r", 0],
   "urdn.com": ["d", 0, undefined, "bn"],
 
-  "armsdeal.com": ["r", 0, "includes arms.deal"],
+  "armsdeal.com": ["r", 0],
   "bettle.com": ["d", 0, undefined, "bn"],
   "ebettle.com": ["r", 0],
   "deluxo.com": ["r", 0, "includes .net and .org"],
