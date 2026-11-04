@@ -30,7 +30,7 @@ export const domain_names = {
   "000006.xyz": ["d", 0, "$1/yr renewal"], 
   "333373.xyz": ["d", 0, "$1/yr renewal", "bn"], 
   "222122.xyz": ["d", 0, "$1/yr renewal", "bn"], 
-  "898888.xyz": ["d", 0, "$1/yr renewal"], 
+  "898888.xyz": ["d", 0, "$1/yr renewal", "bn"], 
   "988888.xyz": ["d", 0, "$1/yr renewal"], 
   "999989.xyz": ["d", 0, "$1/yr renewal"], 
   
@@ -53,7 +53,7 @@ export const domain_names = {
   "www.co.gg": ["d", 0, "www is reg'd part"],
   "fail.fail": ["d", 0],
 
-  "prge.com": ["d", 0],
+  "prge.com": ["d", 0, undefined, "bn"],
   "uxrn.com": ["r", 0],
   "urdn.com": ["d", 0, undefined, "bn"],
 
