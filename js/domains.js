@@ -3,15 +3,15 @@
 // caption: optional text shown under the domain name on the list page
 // tile: optional, "bn" = slightly green tile on the list page
 export const domain_names = {
-  "m.et": ["d", 0],
+  "m.et": ["d", 0, undefined, "bn"],
   "m.cv": ["r", 0],
   "x.srl": ["d", 0, undefined, "bn"],
-  "o.bo": ["d", 0],
+  "o.bo": ["d", 0, undefined, "bn"],
 
   "mc.vc": ["r", 0],
   "mc.vg": ["r", 0],
 
-  "uie.net": ["d", 0],
+  "uie.net": ["d", 0, undefined, "bn"],
   "uck.net": ["d", 0, undefined, "bn"],
   "f-c.net": ["d", 0, undefined, "bn"],
   "azw.org": ["d", 0, undefined, "bn"],
@@ -19,7 +19,7 @@ export const domain_names = {
   "rpg.mobi": ["d", 0, undefined, "bn"],
   "gfv.ai": ["d", 0, undefined, "bn"],
 
-  "uie.xyz": ["d", 0],
+  "uie.xyz": ["d", 0, undefined, "bn"],
   "orc.xyz": ["d", 0, undefined, "bn"],
   "dab.xyz": ["d", 0, undefined, "bn"],
   "ron.xyz": ["d", 0],
@@ -35,7 +35,7 @@ export const domain_names = {
   "999989.xyz": ["d", 0, "$1/yr renewal"], 
   
   "akimbo.xyz": ["d", 0], 
-  "studious.xyz": ["d", 0], 
+  "studious.xyz": ["d", 0, undefined, "bn"], 
 
   "☚.com": ["r", 0],
   "i♥.com": ["r", 0, undefined, "bn"],
@@ -60,8 +60,8 @@ export const domain_names = {
   "armsdeal.com": ["r", 0],
   "bettle.com": ["d", 0, undefined, "bn"],
   "ebettle.com": ["r", 0],
-  "deluxo.com": ["r", 0, "includes .net and .org"],
+  "deluxo.com": ["r", 0, "includes .net and .org", "bn"],
   "molres.org": ["d", 0, "~110th oldest .org (1991)", "bn"],
-  "q-mail.com": ["d", 0],
+  "q-mail.com": ["d", 0, undefined, "bn"],
   "profile.onl": ["d", 0]
 };
